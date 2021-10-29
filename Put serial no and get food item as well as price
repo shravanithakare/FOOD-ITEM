@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ 
+ 
+int choice;
+clrscr();
+   //1. Display the menu
+   printf("Select the food item :\n1. Pizza  Rs 239 \n2. Burger Rs 129\n3. Pasta Rs 179\n4. French Fries Rs 99\n5. Sandwich Rs 149 ");
+   //2. Read their choice
+   printf("\n\nEnter your choice :\n");
+   scanf("%d",&choice);
+   switch(choice)
+    {
+      case 1:
+           printf("You have selected Pizza.");
+           break;
+      case 2:
+           printf("You have selected Burger.");
+           break;
+      case 3:
+           printf("You have selected Pasta.");
+	     break;
+	case 4:
+	     printf("You have selected French fries.");
+           break;
+      case 5:
+           printf("You have selected Sandwich.");
+	     break;
+        default : printf("Not available");
+ }
+  
+getch();
+  
+ 
+}
